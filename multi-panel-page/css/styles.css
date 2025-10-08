@@ -1,0 +1,146 @@
+html{
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+h1 {
+   margin:0; 
+   font-size:80px;
+   line-height:1;
+   color:white;
+   text-shadow:0px 1px 4px rgba(0,0,0,0.5);
+}
+
+h2{
+    margin:0;
+    margin-top:16px;
+    font-size:30px; 
+    line-height:1;
+    text-shadow:0px 1px 4px rgba(0,0,0,0.5);
+    color:white;
+}
+
+
+h3{
+    margin:0;
+    text-align:center;
+    font-size:40px;
+    margin-bottom: 32px;
+    display:block;
+}
+
+h4{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+
+header{
+    text-align:center;
+    background-color:rgba(255, 0, 0);
+    background-image: url(../images/arizonaviewpoint.jpg);
+    background-position:center;
+    background-size: cover;
+    padding-top:166px;
+    padding-bottom: 188px;
+}
+
+section > div{
+    width: 960px;
+    margin:auto;
+}
+
+section.intro{
+    padding-top:40px;
+    background-color:rgb(200, 209, 203);
+    padding-bottom:40px;
+}
+
+section.centered{
+    padding-top:40px;
+    background-color:rgb(193, 174, 150);
+    padding-bottom:101px;
+}
+
+section.grid{
+    padding-top:40px;
+    background-color:rgb(208, 212, 235);
+    padding-bottom:52px;
+}
+
+section.intro img{
+    width:400px;
+    height:300px;
+    float:right;
+    margin-left: 40px;
+    margin-bottom:30px;
+}
+
+section.footer{
+    background-color:rgba(218, 213, 213)
+}
+
+.text h4{
+    font-size:20px;
+    text-align:left;
+    margin-bottom: 8px;
+}
+
+.text h5{
+    font-size:18px;
+    margin-top:5px;
+    max-width:88%;
+    line-height:25px;
+    font-weight:normal;
+}
+
+p{
+    margin:0;
+    line-height:1.4;
+    font-size:18px;
+    display:block;
+    margin-bottom:16px;
+}
+
+div{
+    display:block;
+}
+
+div.photo img{
+    width:200px;
+    height:150px;
+    display:block;
+    object-fit: cover;
+}
+
+.gridrows{
+    display:grid;
+    grid-template-columns: repeat(2, 200px 256px);
+    gap: 12px;
+    row-gap: 9px;
+}
+
+ul{
+    display:list-item;
+}
+
+p.section3{
+    font-size:26px;
+    text-align:center;
+    display:block;
+    max-width:705px;
+    margin:auto;
+    line-height: 36px;
+}
+
+p.footer{
+    padding-top:40px;
+    padding-bottom:40px;
+    margin-bottom: 0px;
+}
