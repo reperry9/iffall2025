@@ -1,0 +1,311 @@
+
+html{
+    font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size:18px;
+  min-width:370px;
+  color: rgb(18, 10, 2)
+}
+
+header.photo{
+    background-image: url(../images/231855_Mini_Chocolate_Chip_Pancakes_DDMFS_3x4_5934-05ec94f1e88d4e38a4d8a4d0327bd20f.jpg);
+    background-position:center;
+    background-size: cover;
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+body{
+    margin:0;
+}
+
+
+h1{
+    font-size: 42px;
+    color:rgb(18, 10, 2);
+}
+
+@media (max-width:750px){
+    h1{
+        font-size:32px;
+    }
+}
+
+h2{
+    font-size: 30px;
+    color:rgb(18, 10, 2);
+    margin-top:10px;
+}
+
+@media (max-width:750px){
+    h2{
+        font-size:20px;
+    }
+}
+
+@media (max-width:750px){
+    dl{
+        flex-wrap:wrap;
+    }
+}
+
+dl{
+    display:block;
+}
+
+.description{
+    font-size: 18px;
+}
+
+@media (max-width:750px){
+    .description{
+        font-size:16px;
+    }
+}
+
+.quick-info{
+    display:flex;
+    column-gap:1.5rem;
+    row-gap:0.5rem;
+    margin-bottom:1rem;
+    flex-wrap:wrap;
+}
+
+@media (max-width:849px){
+    .quick-info{
+       display:block;
+       line-height:1.5rem;
+    }
+}
+
+.highlight{
+    color:rgb(199, 137,112);
+}
+
+
+section.intro{
+    background-color:rgb(236, 221, 192);
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin: 0 auto;
+    background-position:center;
+    background-size: cover;
+    margin-bottom:35px;
+    
+}
+
+.intro-text{
+    padding:40px;
+    margin: auto;
+    max-width:960px;
+    display:block;
+}
+
+
+.ingredients-materials{
+max-width: 960px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+
+.ingredient-text{
+    display:flex;
+    flex-wrap:wrap;
+    column-gap:1.5rem;
+    row-gap:0.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align:left;
+}
+
+@media (max-width:750px){
+    .ingredient-text{
+        font-size:15px;
+    }
+}
+
+.instructions{
+  padding:40px;
+  padding-top:0;
+    margin: auto;
+    max-width:960px;
+    display:block;
+}
+
+
+.child-info{
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+@media (max-width:750px){
+    .child-info{
+        font-size:14px;
+    }
+}
+
+.child-ingredients{
+    flex: 1 1 45%;
+    min-width:280px;
+}
+
+a{
+    color:rgb(178, 81, 39);
+}
+
+footer{
+    background-color:rgb(236, 221, 192);
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin: 0 auto;
+    background-position:center;
+    background-size: cover;
+}
+
+footer{
+    text-align:center;
+    padding-bottom:40px;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-top:20px;
+    font-size:18px;
+}
+
+@media (max-width: 750px){
+    footer{
+        font-size:16px;
+    }
+}
+
+em{
+    color:rgb(178, 81, 39);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin-bottom: 10px;
+}
+
+ol{
+    list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.fa-solid{
+    color:rgb(178, 81, 39);
+}
+
+hr{
+    border: none;
+    margin: 40px auto;
+    border-top: 1px solid rgb(178, 81, 39);
+}
+
+@media (max-width: 1080px){
+    hr{
+        width:100%;
+    }
+}
+
+
+.steps li{
+    display:flex;
+    align-items:flex-start;
+    gap:0.75rem;
+    margin-bottom:1rem;
+}
+
+
+.instructions-text{
+    max-width:85ch;
+    font-size:18px;
+}
+
+@media (max-width: 750px){
+    .instructions-text{
+        font-size:15px;
+    }
+}
+
+.instructions-text p{
+    line-height:1.75em;
+}
+
+
+.steps {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  display: block; 
+}
+
+.steps li {
+  display: flex;      
+  margin-bottom: 2rem; 
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 960px;
+  margin: 0 auto 2rem;
+}
+
+.step-text {
+  display: flex;       
+  align-items: baseline;
+  gap: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width:960px;
+  width:100%
+}
+
+@media (max-width: 750px){
+    .step-text{
+        font-size:15px;
+    }
+}
+
+.step {
+  font-weight: 700;
+  flex-shrink: 0;  
+  font-size: 20px;
+    color:rgb(199, 137, 112);
+    margin-bottom: 0em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 750px){
+    .step{
+        font-size:16px;
+    }
+}
+
+img{
+    max-width:500px;
+}
+
+.steps img {
+  display: block;
+  width:100%;
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom:2.25rem;
+}
+
+@media (max-width:750px){
+    .steps img{
+        flex-wrap:wrap;
+    }
+}
