@@ -1,0 +1,375 @@
+
+
+
+a#btn_cocacola {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 10px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #ea0000;
+				border: 2px solid #ea0000;
+				color: #fff;
+				font-size: 20px;
+				font-family: "Nunito Sans", sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+                background-image: url(../links/cocacola2.jpg);
+                background-position:bottom;
+                background-size: cover;
+			}
+
+
+
+#btn_cocacola:hover{
+    background-image: url(../links/cocacola2.jpg);
+    background-position:center;
+    background-size: cover;
+    text-shadow:0 0 3px rgb(251, 0, 0.5);
+	box-shadow: 5px 5px 5px rgba(164, 18, 18, 0.7);
+}
+
+a#btn_lyft {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 32px;
+				background-color: #EA0B8C;
+				color: #fff;
+				font-size: 30px;
+				text-align: center;
+				font-family: "Montserrat", sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .2s;
+                background-size: cover;
+}
+
+#btn_lyft:hover{
+	background-image: linear-gradient(-45deg, #EA0B8C, #000000 99%);
+	color: #EA0B8C;
+	transition: all .5s;
+}
+
+a#btn_fitbit {
+				display: block;
+				width: 44px;
+				height: 75px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				padding-top: 32px;
+				color: #393737;
+				background-image: url(../links/Fitbit-Symbol.jpg);
+				font-size: 30px;
+				text-align: center;
+				font-family: 'Calibri', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+				font-weight: lighter;
+				text-decoration: none;
+				transition: all .2s;
+                background-size: cover;
+}
+
+#btn_fitbit:hover{
+				display: block;
+				width: 155px;
+				height: 85px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				padding-top: 32px;
+				color: #393737;
+				background-image: url(../links/Fitbit-Symbol.jpg);
+				font-size: 30px;
+				text-align: center;
+				font-family: 'Calibri', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+				font-weight: lighter;
+				text-decoration: none;
+				transition: all .2s;
+                background-size: cover;
+}
+
+a#btn_stjude {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #C10F3A;
+				font-family: "GFS Didot", serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_stjude:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-image: url(../links/St-Jude-Symbol.jpg);
+				transition: all .5s;
+				background-size: 100px;   
+				background-repeat:no-repeat;
+    			background-position: top;
+			}
+
+			a#btn_stjude:hover {
+				color: gray;
+				font-size:20px;
+				letter-spacing: 0px;
+				align-self:top;
+			}
+
+			a#btn_stjude:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: -50px;
+			}
+
+			a#btn_stjude span {
+				position: relative;
+				z-index: 10;
+			}
+
+
+a#btn_newyorker {
+				display: inline-flex;
+				flex-direction: column;
+				height: auto;
+				width:auto;
+				align-items:left;
+				justify-content:center;
+				box-sizing: border-box;
+				margin: 100px auto 0 auto;
+				padding-top: 32px;
+				color: #393737;
+				font-size: 30px;
+				text-align: left;
+				font-family:'Cygnet', sans-serif;
+				font-weight: lighter;
+				text-decoration: none;
+                background-size: cover;
+				position:relative;
+}
+
+#btn_newyorker:hover{
+	font-size:20px;
+	text-align:left;
+	white-space:nowrap;
+	flex-direction: row;
+	left:-10px;
+	gap:5px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 20px;
+				background-color: #000000;
+				border: 2px solid #000000;
+				color: #fff;
+}
+
+
+a#btn_oldnavy {
+				display: block;
+				height: 80px;
+				width: 300px;
+				margin:100px auto 0 auto;
+				align-items:center;
+				box-sizing: border-box;
+				margin: 100px auto 0 auto;
+				margin-left:52px;
+				padding:16px 60px;
+				color: #393737;
+				font-size: 30px;
+				text-align: center;
+				font-family: "Roboto", sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+                background-size: cover;
+				position:relative;
+				background-image: url(../links/Old_Navy_Logo.jpg);
+				transition: all .5s;
+				background-size: 150px;   
+				background-repeat:no-repeat;	
+
+}
+
+#btn_oldnavy:hover{
+				background-image: url(../links/Old_Navy_Logo.jpg);
+				transition: all .5s;
+				transform:scale(1);
+				
+				background-size: 200px;   
+				background-repeat:no-repeat;
+				animation-name: wiggle;
+				animation-duration:0.3s;
+				margin-left:30px;
+
+}
+
+
+@keyframes wiggle {
+  from { transform: scale(1) rotate(-10deg); }
+  25% { transform: scale(1) rotate(5deg); }
+  50% { transform: scale(1) rotate(-10deg); }
+  to { transform: scale(1) rotate(5deg); }
+}
+
+a#btn_foreflight {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 75px auto;
+    position: relative;
+    background-image: url('../links/Foreflight-logo-rim.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    overflow: visible;
+}
+
+#btn_foreflight img.plane {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px; 
+    height: auto;
+    transition: transform 0.3s ease;
+	mix-blend-mode: multiply;
+}
+
+#btn_foreflight img.plane:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 60px;   
+    height: auto;
+    transition: transform 0.3s ease;
+	mix-blend-mode: multiply;
+}
+
+
+a#btn_insta {
+				display: inline-block;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 10px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 40px 0 40px;
+				color: #000000;
+				font-size: 20px;
+				text-decoration: none;
+				transition: all .5s;
+				background-image: url('../links/instagram-logo-icon_628407-1656.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				mix-blend-mode: multiply;
+
+			}
+
+
+#btn_insta:hover{
+		animation:spin 1s linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+a#btn_moo {
+				display: inline-block;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 10px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 40px 0 40px;
+				color: #009660;
+				font-size: 50px;
+				text-decoration: none;
+				transition: all .5s;
+				font-family: "M PLUS Rounded 1c", sans-serif;
+
+			}
+
+
+a#btn_moo:hover {
+				background-color: #009660;
+				background: repeating-linear-gradient(
+				45deg,      
+				#ffffff,    
+				#ffffff 10px, 
+				#00cc66 10px,
+				#00cc66 20px );
+				color: black;
+				font-weight:bold;
+}
+
+a#btn_nike {
+				display: block;
+				position: relative;
+				width: auto;          
+				height: 100px;        
+				margin: 100px auto 0 auto;
+				padding: 0;           
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all 0.2s;
+				background-image: url('../links/Nike-Logo-1971-now.jpg');
+				background-size: 70%;   
+				background-position: center;
+				background-repeat: no-repeat;
+				color: #fff;          
+				border-radius: 10px;  
+			}
+
+
+a#btn_nike::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../links/Jumpman_logo.jpg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;                
+    transition: top 0.5s ease, opacity 0.5s ease; 
+	mix-blend-mode: multiply;;
+}
+
+
+a#btn_nike:hover::after {
+    top: -50%;                  
+    transform: translate(-50%, 0);
+    opacity: 1;                
+}
